@@ -2,6 +2,8 @@ package com.yvolabs.productservice.dto;
 
 import lombok.*;
 
+import java.math.BigDecimal;
+
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
@@ -10,5 +12,5 @@ public class ProductResponse {
     private String id;
     private String name;
     private String description;
-    private String price;
+    private BigDecimal price;
 }
